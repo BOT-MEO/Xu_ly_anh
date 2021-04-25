@@ -1,3 +1,4 @@
 # Xử lý ảnh
-- Nhận diện khuôn mặt với opencv và sqlite sử dụng thư viện haarcascade_frontalface_default.xml
+- Nhận diện khuôn mặt với OpenCV và Python sử dụng thư viện haarcascade_frontalface_default.xml
+- Sử dụng SQlite để lưu dữ liệu.
 - Mô hình nhận diện dựa theo ảnh 
