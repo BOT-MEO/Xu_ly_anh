@@ -24,7 +24,6 @@ def Set_Video():
     cam.set(3, 1280)  # set width
     cam.set(4, 1024)  # set height
 
-
 Set_Video()
 
 while True:

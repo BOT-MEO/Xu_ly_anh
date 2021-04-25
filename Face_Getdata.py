@@ -6,7 +6,6 @@ face_detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 cam = cv2.VideoCapture(0)
 numbers = 0
 
-
 def Set_Video():
     cam.set(3, 640)  # set width
     cam.set(4, 480)  # set height
@@ -26,7 +25,6 @@ def Insert_Update(id, name):
     connect.execute(query)
     connect.commit()
     connect.close()
-
 
 id = input("Enter ID: ")
 name = input("Enter Name: ")
